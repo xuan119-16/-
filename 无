@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP下载中心</title>
+    <style>
+        body{margin:0;background:#0f172a;color:#fff;font-family:system-ui;}
+        .container{max-width:600px;margin:0 auto;padding:80px 20px;text-align:center;}
+        h2{font-size:28px;margin-bottom:15px;}
+        .desc{color:#94a3b8;margin-bottom:40px;line-height:1.6;}
+        .down{
+            background:#3b82f6;
+            color:#fff;
+            text-decoration:none;
+            padding:15px 45px;
+            border-radius:99px;
+            font-size:17px;
+        }
+        .down:hover{background:#2563eb;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>APP 最新版本</h2>
+        <p class="desc">版本：V1.0.0 | 安卓专用<br>体积小巧，运行流畅</p>
+        <!-- 替换为你的 APK 直链 -->
+        <a href="你的APK文件链接" class="down">点击下载安装包</a>
+    </div>
+</body>
+</html>
